@@ -3,7 +3,7 @@ name: cleancode
 description: 优化重构代码。用户消息中直接写出 skill.name 时才使用。
 ---
 
-重点关注：
+优化重构代码，重点关注：
 
 - 简洁性
 - 可读性
