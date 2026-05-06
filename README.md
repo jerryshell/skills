@@ -2,6 +2,14 @@
 
 一套个人使用的智能体技能集。
 
+## 全局安装全部
+
+```bash
+npx skills@latest add jerryshell/skills -y -g
+```
+
+## 个别选装
+
 - **cleancode** - 优化重构代码。
 
   ```bash
