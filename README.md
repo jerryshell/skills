@@ -22,6 +22,12 @@ npx skills@latest add jerryshell/skills -y -g
   npx skills@latest add jerryshell/skills/grillme
   ```
 
+- **improve** - 以资深顾问身份审视代码库，生成优先级排序的实施计划；严格只读，不修改任何源代码。
+
+  ```bash
+  npx skills@latest add jerryshell/skills/improve
+  ```
+
 - **updatedoc** - 以代码为事实更新文档。
 
   ```bash
