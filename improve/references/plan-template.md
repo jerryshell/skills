@@ -48,12 +48,12 @@
 
 ## Commands you will need
 
-| 用途       | 命令                          | 成功时的预期 |
-|-----------|------------------------------|-------------|
-| 安装       | `pnpm install`               | 退出码 0    |
-| 类型检查   | `pnpm typecheck`             | 退出码 0，无错误 |
-| 测试       | `pnpm test -- <filter>`      | 全部通过    |
-| Lint      | `pnpm lint`                  | 退出码 0    |
+| 用途     | 命令                    | 成功时的预期     |
+| -------- | ----------------------- | ---------------- |
+| 安装     | `pnpm install`          | 退出码 0         |
+| 类型检查 | `pnpm typecheck`        | 退出码 0，无错误 |
+| 测试     | `pnpm test -- <filter>` | 全部通过         |
+| Lint     | `pnpm lint`             | 退出码 0         |
 
 （来自本仓库的精确命令，侦察阶段验证过的，不是猜的。）
 
@@ -68,10 +68,12 @@
 ## Scope
 
 **In scope**（你应修改的唯一文件）：
+
 - `src/orders/api.ts`
 - `src/orders/api.test.ts`（新建）
 
 **Out of scope**（不要碰，即便看起来相关）：
+
 - `src/orders/legacy-api.ts`，已废弃路径，计划删除；改它只会浪费精力并影响仍钉在 v1 上的客户端。
 - 对外响应形态的任何变更，客户端依赖于此。
 
@@ -144,7 +146,7 @@
 ## Execution order & status
 
 | Plan | Title | Priority | Effort | Depends on | Status |
-|------|-------|----------|--------|------------|--------|
+| ---- | ----- | -------- | ------ | ---------- | ------ |
 | 001  | ...   | P1       | S      | 无         | TODO   |
 | 002  | ...   | P1       | M      | 001        | TODO   |
 
