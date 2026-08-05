@@ -48,12 +48,12 @@
 
 ## Commands you will need
 
-| 用途     | 命令                    | 成功时的预期     |
-| -------- | ----------------------- | ---------------- |
-| 安装     | `pnpm install`          | 退出码 0         |
-| 类型检查 | `pnpm typecheck`        | 退出码 0，无错误 |
-| 测试     | `pnpm test -- <filter>` | 全部通过         |
-| Lint     | `pnpm lint`             | 退出码 0         |
+| 用途     | 命令                   | 成功时的预期     |
+| -------- | ---------------------- | ---------------- |
+| 安装     | `npm install`          | 退出码 0         |
+| 类型检查 | `npm typecheck`        | 退出码 0，无错误 |
+| 测试     | `npm test -- <filter>` | 全部通过         |
+| Lint     | `npm lint`             | 退出码 0         |
 
 （来自本仓库的精确命令，侦察阶段验证过的，不是猜的。）
 
@@ -108,8 +108,8 @@
 
 机器可校验。**所有**项必须满足：
 
-- [ ] `pnpm typecheck` 退出码为 0
-- [ ] `pnpm test` 退出码为 0；针对 <X> 的新测试存在并通过
+- [ ] `npm typecheck` 退出码为 0
+- [ ] `npm test` 退出码为 0；针对 <X> 的新测试存在并通过
 - [ ] `grep -rn "<old pattern>" src/` 无任何匹配
 - [ ] 范围外列表之外没有文件被修改（`git status`）
 - [ ] `plans/README.md` 状态行已更新
