@@ -16,6 +16,12 @@ npx skills@latest add jerryshell/skills -y -g
   npx skills@latest add jerryshell/skills/cleancode
   ```
 
+- **docstyle** - 按统一规范撰写、改写和审阅中文技术文档、产品文案与界面文案。
+
+  ```bash
+  npx skills@latest add jerryshell/skills/docstyle
+  ```
+
 - **grillme** - 对一个计划或设计进行持续不断的深入询问，直到决策树的每一个分支都得到明确解答。
 
   ```bash
