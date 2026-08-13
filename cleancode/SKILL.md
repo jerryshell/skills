@@ -1,6 +1,7 @@
 ---
 name: cleancode
-description: 优化重构代码。用户消息中直接写出 skill.name 时才使用。
+description: 优化重构代码。
+disable-model-invocation: true
 ---
 
 优化重构代码，重点关注：
