@@ -46,6 +46,20 @@ npx skills add jerryshell/skills -y -g
   npx skills add jerryshell/skills/updatedoc
   ```
 
+## skills 更新
+
+项目级更新
+
+```bash
+npx skills update
+```
+
+全局更新
+
+```bash
+npx skills update -g
+```
+
 ## 更多
 
 - 拒绝过度设计，最好的代码就是你从未写过的代码
