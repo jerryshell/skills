@@ -66,3 +66,5 @@ npx skills update -g
   https://github.com/dietrichgebert/ponytail
 - 现代 Web 指南
   https://github.com/googlechrome/modern-web-guidance
+- Vercel 品牌设计指南
+  https://vercel.com/design.md
