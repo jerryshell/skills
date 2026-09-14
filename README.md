@@ -68,3 +68,5 @@ npx skills update -g
   https://github.com/googlechrome/modern-web-guidance
 - Vercel 品牌设计指南
   https://vercel.com/design.md
+- 帮助人类和 Agent 创造更好的界面
+  https://github.com/ibelick/ui-skills
