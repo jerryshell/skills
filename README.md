@@ -40,3 +40,5 @@ npx skills update -g
   https://vercel.com/design.md
 - 帮助人类和 Agent 创造更好的界面
   https://github.com/ibelick/ui-skills
+- Agent 自动化浏览器
+  https://agent-browser.dev
