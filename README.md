@@ -32,8 +32,9 @@ npx skills update -g
 
 ## 更多
 
+- 现代 Web 指南 https://github.com/googlechrome/modern-web-guidance
+- Vercel 品牌设计指南 https://vercel.com/design.md
+- 帮助人类和 Agent 创造更好的界面 https://github.com/ibelick/ui-skills
 - Agent 自动化浏览器 https://agent-browser.dev
 - 任务编排 https://github.com/backnotprop/pstack
-- 现代 Web 指南 https://github.com/googlechrome/modern-web-guidance
-- 帮助人类和 Agent 创造更好的界面 https://github.com/ibelick/ui-skills
-- Vercel 品牌设计指南 https://vercel.com/design.md
+- REA 逆向一切 https://github.com/morluto/rea
