@@ -38,3 +38,4 @@ npx skills update -g
 - Agent 自动化浏览器 https://agent-browser.dev
 - 任务编排 https://github.com/backnotprop/pstack
 - REA 逆向一切 https://github.com/morluto/rea
+- Agent 网络搜索 https://github.com/dondai44423/donsetch
